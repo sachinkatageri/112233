@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.sksk">
+    package="com.example.nuveda_parabeac">
    <application
-        android:label="sksk"
+        android:label="nuveda_parabeac"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
