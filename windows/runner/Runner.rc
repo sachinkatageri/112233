@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "sksk" "\0"
+            VALUE "FileDescription", "nuveda_parabeac" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "sksk" "\0"
+            VALUE "InternalName", "nuveda_parabeac" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "sksk.exe" "\0"
-            VALUE "ProductName", "sksk" "\0"
+            VALUE "OriginalFilename", "nuveda_parabeac.exe" "\0"
+            VALUE "ProductName", "nuveda_parabeac" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

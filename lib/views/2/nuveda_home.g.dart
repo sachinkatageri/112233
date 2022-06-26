@@ -7,7 +7,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:sksk/widgets/nuveda/carousel.g.dart';
+import 'package:nuveda_parabeac/widgets/2/carousel.g.dart';
 
 class NuvedaHome extends StatefulWidget {
   const NuvedaHome({
@@ -66,7 +66,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 98.0,
                           child: Image.asset(
                             'assets/images/rectangle1916.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 195.000,
                             height: 98.000,
                             fit: BoxFit.none,
@@ -79,7 +79,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 12.0,
                           child: SvgPicture.asset(
                             'assets/images/fasolidlock.svg',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 12.000,
                             height: 12.000,
                             fit: BoxFit.none,
@@ -92,7 +92,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 10.0,
                           child: SvgPicture.asset(
                             'assets/images/bxstimefive.svg',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 10.000,
                             height: 10.000,
                             fit: BoxFit.none,
@@ -125,7 +125,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 94.0,
                           child: Image.asset(
                             'assets/images/image263.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 102.000,
                             height: 94.000,
                             fit: BoxFit.none,
@@ -171,7 +171,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 30.0,
                           child: Image.asset(
                             'assets/images/ellipse144.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 30.000,
                             height: 30.000,
                             fit: BoxFit.none,
@@ -216,7 +216,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 98.0,
                           child: Image.asset(
                             'assets/images/rectangle1927.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 195.000,
                             height: 98.000,
                             fit: BoxFit.none,
@@ -229,7 +229,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 12.0,
                           child: SvgPicture.asset(
                             'assets/images/fasolidlock.svg',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 12.000,
                             height: 12.000,
                             fit: BoxFit.none,
@@ -295,7 +295,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 30.0,
                           child: Image.asset(
                             'assets/images/ellipse145.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 30.000,
                             height: 30.000,
                             fit: BoxFit.none,
@@ -328,7 +328,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 10.0,
                           child: SvgPicture.asset(
                             'assets/images/vector.svg',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 10.000,
                             height: 10.000,
                             fit: BoxFit.none,
@@ -341,7 +341,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 70.0,
                           child: Image.asset(
                             'assets/images/image265.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 94.000,
                             height: 70.000,
                             fit: BoxFit.none,
@@ -395,7 +395,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 12.0,
                           child: SvgPicture.asset(
                             'assets/images/fasolidlock.svg',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 12.000,
                             height: 12.000,
                             fit: BoxFit.none,
@@ -461,7 +461,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 30.0,
                           child: Image.asset(
                             'assets/images/ellipse145.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 30.000,
                             height: 30.000,
                             fit: BoxFit.none,
@@ -494,7 +494,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 10.0,
                           child: SvgPicture.asset(
                             'assets/images/vector.svg',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 10.000,
                             height: 10.000,
                             fit: BoxFit.none,
@@ -507,7 +507,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 70.0,
                           child: Image.asset(
                             'assets/images/image265.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 94.000,
                             height: 70.000,
                             fit: BoxFit.none,
@@ -545,7 +545,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 40.0,
                           child: Image.asset(
                             'assets/images/rectangle1912.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 108.000,
                             height: 40.000,
                             fit: BoxFit.none,
@@ -590,7 +590,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 40.0,
                           child: Image.asset(
                             'assets/images/rectangle1918.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 108.000,
                             height: 40.000,
                             fit: BoxFit.none,
@@ -635,7 +635,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 40.0,
                           child: Image.asset(
                             'assets/images/rectangle1953.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 108.000,
                             height: 40.000,
                             fit: BoxFit.none,
@@ -785,7 +785,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                                   height: 55.551,
                                   child: Image.asset(
                                     'assets/images/image278.png',
-                                    package: 'sksk',
+                                    package: 'nuveda_parabeac',
                                     width: 59.891,
                                     height: 55.551,
                                     fit: BoxFit.none,
@@ -857,7 +857,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                                   height: 60.157,
                                   child: Image.asset(
                                     'assets/images/image279.png',
-                                    package: 'sksk',
+                                    package: 'nuveda_parabeac',
                                     width: 59.000,
                                     height: 60.157,
                                     fit: BoxFit.none,
@@ -929,7 +929,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                                   height: 55.551,
                                   child: Image.asset(
                                     'assets/images/image280.png',
-                                    package: 'sksk',
+                                    package: 'nuveda_parabeac',
                                     width: 59.891,
                                     height: 55.551,
                                     fit: BoxFit.none,
@@ -1001,7 +1001,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                                   height: 60.157,
                                   child: Image.asset(
                                     'assets/images/image281.png',
-                                    package: 'sksk',
+                                    package: 'nuveda_parabeac',
                                     width: 59.000,
                                     height: 60.157,
                                     fit: BoxFit.none,
@@ -1073,7 +1073,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                                   height: 55.551,
                                   child: Image.asset(
                                     'assets/images/image278.png',
-                                    package: 'sksk',
+                                    package: 'nuveda_parabeac',
                                     width: 59.891,
                                     height: 55.551,
                                     fit: BoxFit.none,
@@ -1145,7 +1145,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                                   height: 60.157,
                                   child: Image.asset(
                                     'assets/images/image279.png',
-                                    package: 'sksk',
+                                    package: 'nuveda_parabeac',
                                     width: 59.000,
                                     height: 60.157,
                                     fit: BoxFit.none,
@@ -1217,7 +1217,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                                   height: 55.551,
                                   child: Image.asset(
                                     'assets/images/image280.png',
-                                    package: 'sksk',
+                                    package: 'nuveda_parabeac',
                                     width: 59.891,
                                     height: 55.551,
                                     fit: BoxFit.none,
@@ -1289,7 +1289,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                                   height: 60.157,
                                   child: Image.asset(
                                     'assets/images/image281.png',
-                                    package: 'sksk',
+                                    package: 'nuveda_parabeac',
                                     width: 59.000,
                                     height: 60.157,
                                     fit: BoxFit.none,
@@ -1659,7 +1659,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 42.0,
                   child: Image.asset(
                     'assets/images/image271.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 37.000,
                     height: 42.000,
                     fit: BoxFit.none,
@@ -1732,7 +1732,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 42.0,
                   child: Image.asset(
                     'assets/images/image273.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 37.000,
                     height: 42.000,
                     fit: BoxFit.none,
@@ -1805,7 +1805,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 59.0,
                   child: Image.asset(
                     'assets/images/image272.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 57.000,
                     height: 59.000,
                     fit: BoxFit.none,
@@ -1878,7 +1878,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 36.0,
                   child: Image.asset(
                     'assets/images/image275.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 46.000,
                     height: 36.000,
                     fit: BoxFit.none,
@@ -1997,7 +1997,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 10.0,
                   child: Image.asset(
                     'assets/images/ellipse148.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 10.000,
                     height: 10.000,
                     fit: BoxFit.none,
@@ -2010,7 +2010,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 10.0,
                   child: Image.asset(
                     'assets/images/ellipse149.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 10.000,
                     height: 10.000,
                     fit: BoxFit.none,
@@ -2023,7 +2023,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 10.0,
                   child: Image.asset(
                     'assets/images/ellipse150.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 10.000,
                     height: 10.000,
                     fit: BoxFit.none,
@@ -2036,7 +2036,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 10.0,
                   child: Image.asset(
                     'assets/images/ellipse151.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 10.000,
                     height: 10.000,
                     fit: BoxFit.none,
@@ -2049,7 +2049,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 25.0,
                   child: Image.asset(
                     'assets/images/rectangle1953.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 25.000,
                     height: 25.000,
                     fit: BoxFit.none,
@@ -2062,7 +2062,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 25.0,
                   child: Image.asset(
                     'assets/images/rectangle1954.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 25.000,
                     height: 25.000,
                     fit: BoxFit.none,
@@ -2075,7 +2075,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 25.0,
                   child: Image.asset(
                     'assets/images/rectangle1955.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 25.000,
                     height: 25.000,
                     fit: BoxFit.none,
@@ -2088,7 +2088,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 25.0,
                   child: Image.asset(
                     'assets/images/rectangle1956.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 25.000,
                     height: 25.000,
                     fit: BoxFit.none,
@@ -2111,7 +2111,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 10.0,
                           child: Image.asset(
                             'assets/images/ellipse147.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 10.000,
                             height: 10.000,
                             fit: BoxFit.none,
@@ -2124,7 +2124,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 25.0,
                           child: Image.asset(
                             'assets/images/rectangle1952.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 25.000,
                             height: 25.000,
                             fit: BoxFit.none,
@@ -2180,7 +2180,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 50.0,
                   child: Image.asset(
                     'assets/images/profile.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 50.000,
                     height: 50.000,
                     fit: BoxFit.none,
@@ -2223,7 +2223,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 24.0,
                           child: Image.asset(
                             'assets/images/ellipse63.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 24.000,
                             height: 24.000,
                             fit: BoxFit.none,
@@ -2236,7 +2236,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 16.0,
                           child: SvgPicture.asset(
                             'assets/images/vector.svg',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 12.218,
                             height: 16.000,
                             fit: BoxFit.none,

@@ -7,7 +7,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:sksk/widgets/nuveda/carousel.g.dart';
 
 class NuvedaHome extends StatefulWidget {
   const NuvedaHome({
@@ -26,7 +25,7 @@ class _NuvedaHome extends State<NuvedaHome> {
       color: Colors.white,
       child: Stack(children: [
         Positioned(
-          left: 0,
+          left: MediaQuery.of(context).size.width * 0.064,
           width: MediaQuery.of(context).size.width * 1.0,
           top: 0,
           height: MediaQuery.of(context).size.height * 1.25,
@@ -39,7 +38,7 @@ class _NuvedaHome extends State<NuvedaHome> {
           ),
         ),
         Positioned(
-          left: 10.0,
+          left: 34.0,
           right: 432.0,
           top: 409.0,
           height: 137.0,
@@ -64,12 +63,28 @@ class _NuvedaHome extends State<NuvedaHome> {
                           width: 195.0,
                           top: 10.0,
                           height: 98.0,
-                          child: Image.asset(
-                            'assets/images/rectangle1916.png',
-                            package: 'sksk',
+                          child: Container(
                             width: 195.000,
                             height: 98.000,
-                            fit: BoxFit.none,
+                            decoration: BoxDecoration(
+                              gradient: LinearGradient(
+                                begin: Alignment(
+                                    -1.0000000069648642, -0.8411214680418226),
+                                end: Alignment(
+                                    0.08695651557286377, 0.21495338196824298),
+                                colors: <Color>[
+                                  Color(0xff4a62f3),
+                                  Color(0xffc4aded),
+                                ],
+                                stops: [
+                                  0,
+                                  1,
+                                ],
+                                tileMode: TileMode.clamp,
+                              ),
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(10)),
+                            ),
                           ),
                         ),
                         Positioned(
@@ -79,7 +94,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 12.0,
                           child: SvgPicture.asset(
                             'assets/images/fasolidlock.svg',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 12.000,
                             height: 12.000,
                             fit: BoxFit.none,
@@ -92,7 +107,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 10.0,
                           child: SvgPicture.asset(
                             'assets/images/bxstimefive.svg',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 10.000,
                             height: 10.000,
                             fit: BoxFit.none,
@@ -125,7 +140,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 94.0,
                           child: Image.asset(
                             'assets/images/image263.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 102.000,
                             height: 94.000,
                             fit: BoxFit.none,
@@ -171,7 +186,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 30.0,
                           child: Image.asset(
                             'assets/images/ellipse144.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 30.000,
                             height: 30.000,
                             fit: BoxFit.none,
@@ -214,12 +229,28 @@ class _NuvedaHome extends State<NuvedaHome> {
                           width: 195.0,
                           top: 10.0,
                           height: 98.0,
-                          child: Image.asset(
-                            'assets/images/rectangle1927.png',
-                            package: 'sksk',
+                          child: Container(
                             width: 195.000,
                             height: 98.000,
-                            fit: BoxFit.none,
+                            decoration: BoxDecoration(
+                              gradient: LinearGradient(
+                                begin: Alignment(
+                                    -1.0000000069648642, -0.8411214680418226),
+                                end: Alignment(
+                                    0.08695651557286377, 0.21495338196824298),
+                                colors: <Color>[
+                                  Color(0xff4a62f3),
+                                  Color(0xffc4aded),
+                                ],
+                                stops: [
+                                  0,
+                                  1,
+                                ],
+                                tileMode: TileMode.clamp,
+                              ),
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(10)),
+                            ),
                           ),
                         ),
                         Positioned(
@@ -229,7 +260,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 12.0,
                           child: SvgPicture.asset(
                             'assets/images/fasolidlock.svg',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 12.000,
                             height: 12.000,
                             fit: BoxFit.none,
@@ -295,7 +326,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 30.0,
                           child: Image.asset(
                             'assets/images/ellipse145.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 30.000,
                             height: 30.000,
                             fit: BoxFit.none,
@@ -328,7 +359,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 10.0,
                           child: SvgPicture.asset(
                             'assets/images/vector.svg',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 10.000,
                             height: 10.000,
                             fit: BoxFit.none,
@@ -341,7 +372,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 70.0,
                           child: Image.asset(
                             'assets/images/image265.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 94.000,
                             height: 70.000,
                             fit: BoxFit.none,
@@ -395,7 +426,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 12.0,
                           child: SvgPicture.asset(
                             'assets/images/fasolidlock.svg',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 12.000,
                             height: 12.000,
                             fit: BoxFit.none,
@@ -461,7 +492,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 30.0,
                           child: Image.asset(
                             'assets/images/ellipse145.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 30.000,
                             height: 30.000,
                             fit: BoxFit.none,
@@ -494,7 +525,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 10.0,
                           child: SvgPicture.asset(
                             'assets/images/vector.svg',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 10.000,
                             height: 10.000,
                             fit: BoxFit.none,
@@ -507,7 +538,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 70.0,
                           child: Image.asset(
                             'assets/images/image265.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 94.000,
                             height: 70.000,
                             fit: BoxFit.none,
@@ -518,7 +549,7 @@ class _NuvedaHome extends State<NuvedaHome> {
               ])),
         ),
         Positioned(
-          left: 11.0,
+          left: 35.0,
           width: 364.0,
           top: 543.0,
           height: 40.0,
@@ -545,7 +576,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 40.0,
                           child: Image.asset(
                             'assets/images/rectangle1912.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 108.000,
                             height: 40.000,
                             fit: BoxFit.none,
@@ -590,7 +621,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 40.0,
                           child: Image.asset(
                             'assets/images/rectangle1918.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 108.000,
                             height: 40.000,
                             fit: BoxFit.none,
@@ -635,7 +666,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 40.0,
                           child: Image.asset(
                             'assets/images/rectangle1953.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 108.000,
                             height: 40.000,
                             fit: BoxFit.none,
@@ -713,7 +744,7 @@ class _NuvedaHome extends State<NuvedaHome> {
               ])),
         ),
         Positioned(
-          left: 15.0,
+          left: 39.0,
           right: 432.0,
           top: 847.0,
           height: 98.0,
@@ -785,7 +816,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                                   height: 55.551,
                                   child: Image.asset(
                                     'assets/images/image278.png',
-                                    package: 'sksk',
+                                    package: 'nuveda_parabeac',
                                     width: 59.891,
                                     height: 55.551,
                                     fit: BoxFit.none,
@@ -857,7 +888,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                                   height: 60.157,
                                   child: Image.asset(
                                     'assets/images/image279.png',
-                                    package: 'sksk',
+                                    package: 'nuveda_parabeac',
                                     width: 59.000,
                                     height: 60.157,
                                     fit: BoxFit.none,
@@ -929,7 +960,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                                   height: 55.551,
                                   child: Image.asset(
                                     'assets/images/image280.png',
-                                    package: 'sksk',
+                                    package: 'nuveda_parabeac',
                                     width: 59.891,
                                     height: 55.551,
                                     fit: BoxFit.none,
@@ -1001,7 +1032,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                                   height: 60.157,
                                   child: Image.asset(
                                     'assets/images/image281.png',
-                                    package: 'sksk',
+                                    package: 'nuveda_parabeac',
                                     width: 59.000,
                                     height: 60.157,
                                     fit: BoxFit.none,
@@ -1073,7 +1104,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                                   height: 55.551,
                                   child: Image.asset(
                                     'assets/images/image278.png',
-                                    package: 'sksk',
+                                    package: 'nuveda_parabeac',
                                     width: 59.891,
                                     height: 55.551,
                                     fit: BoxFit.none,
@@ -1145,7 +1176,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                                   height: 60.157,
                                   child: Image.asset(
                                     'assets/images/image279.png',
-                                    package: 'sksk',
+                                    package: 'nuveda_parabeac',
                                     width: 59.000,
                                     height: 60.157,
                                     fit: BoxFit.none,
@@ -1217,7 +1248,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                                   height: 55.551,
                                   child: Image.asset(
                                     'assets/images/image280.png',
-                                    package: 'sksk',
+                                    package: 'nuveda_parabeac',
                                     width: 59.891,
                                     height: 55.551,
                                     fit: BoxFit.none,
@@ -1289,7 +1320,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                                   height: 60.157,
                                   child: Image.asset(
                                     'assets/images/image281.png',
-                                    package: 'sksk',
+                                    package: 'nuveda_parabeac',
                                     width: 59.000,
                                     height: 60.157,
                                     fit: BoxFit.none,
@@ -1302,7 +1333,7 @@ class _NuvedaHome extends State<NuvedaHome> {
               ])),
         ),
         Positioned(
-          left: 0,
+          left: 24.0,
           right: 432.0,
           top: 1009.0,
           height: 15.0,
@@ -1315,7 +1346,7 @@ class _NuvedaHome extends State<NuvedaHome> {
           ),
         ),
         Positioned(
-          left: 14.0,
+          left: 38.0,
           right: 446.0,
           top: MediaQuery.of(context).size.height * 0.138,
           height: MediaQuery.of(context).size.height * 0.09,
@@ -1329,7 +1360,7 @@ class _NuvedaHome extends State<NuvedaHome> {
           ),
         ),
         Positioned(
-          left: 33.0,
+          left: 57.0,
           right: 458.0,
           top: MediaQuery.of(context).size.height * 0.147,
           height: MediaQuery.of(context).size.height * 0.023,
@@ -1349,7 +1380,7 @@ class _NuvedaHome extends State<NuvedaHome> {
               )),
         ),
         Positioned(
-          left: 33.0,
+          left: 57.0,
           right: 457.0,
           top: MediaQuery.of(context).size.height * 0.179,
           height: MediaQuery.of(context).size.height * 0.034,
@@ -1369,7 +1400,7 @@ class _NuvedaHome extends State<NuvedaHome> {
               )),
         ),
         Positioned(
-          left: 14.0,
+          left: 38.0,
           width: 133.0,
           top: MediaQuery.of(context).size.height * 0.462,
           height: MediaQuery.of(context).size.height * 0.037,
@@ -1409,7 +1440,7 @@ class _NuvedaHome extends State<NuvedaHome> {
               )),
         ),
         Positioned(
-          left: 11.0,
+          left: 35.0,
           width: 108.0,
           top: MediaQuery.of(context).size.height * 0.722,
           height: MediaQuery.of(context).size.height * 0.006,
@@ -1423,7 +1454,7 @@ class _NuvedaHome extends State<NuvedaHome> {
           ),
         ),
         Positioned(
-          left: 14.0,
+          left: 38.0,
           width: 347.0,
           top: 601.0,
           height: 51.0,
@@ -1595,7 +1626,7 @@ class _NuvedaHome extends State<NuvedaHome> {
               ])),
         ),
         Positioned(
-          left: 194.0,
+          left: 218.0,
           width: 167.0,
           top: 659.0,
           height: 66.0,
@@ -1659,7 +1690,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 42.0,
                   child: Image.asset(
                     'assets/images/image271.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 37.000,
                     height: 42.000,
                     fit: BoxFit.none,
@@ -1668,7 +1699,7 @@ class _NuvedaHome extends State<NuvedaHome> {
               ])),
         ),
         Positioned(
-          left: 15.0,
+          left: 39.0,
           width: 167.0,
           top: 733.0,
           height: 66.0,
@@ -1732,7 +1763,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 42.0,
                   child: Image.asset(
                     'assets/images/image273.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 37.000,
                     height: 42.000,
                     fit: BoxFit.none,
@@ -1741,7 +1772,7 @@ class _NuvedaHome extends State<NuvedaHome> {
               ])),
         ),
         Positioned(
-          left: 15.0,
+          left: 39.0,
           width: 167.0,
           top: 659.0,
           height: 66.0,
@@ -1805,7 +1836,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 59.0,
                   child: Image.asset(
                     'assets/images/image272.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 57.000,
                     height: 59.000,
                     fit: BoxFit.none,
@@ -1814,7 +1845,7 @@ class _NuvedaHome extends State<NuvedaHome> {
               ])),
         ),
         Positioned(
-          left: 194.0,
+          left: 218.0,
           width: 167.0,
           top: 733.0,
           height: 66.0,
@@ -1878,7 +1909,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 36.0,
                   child: Image.asset(
                     'assets/images/image275.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 46.000,
                     height: 36.000,
                     fit: BoxFit.none,
@@ -1887,7 +1918,7 @@ class _NuvedaHome extends State<NuvedaHome> {
               ])),
         ),
         Positioned(
-          left: 11.0,
+          left: 35.0,
           width: 85.0,
           top: MediaQuery.of(context).size.height * 0.994,
           height: MediaQuery.of(context).size.height * 0.037,
@@ -1927,7 +1958,7 @@ class _NuvedaHome extends State<NuvedaHome> {
               )),
         ),
         Positioned(
-          left: MediaQuery.of(context).size.width * 0.371,
+          left: MediaQuery.of(context).size.width * 0.435,
           width: MediaQuery.of(context).size.width * 0.259,
           top: MediaQuery.of(context).size.height * 1.185,
           height: MediaQuery.of(context).size.height * 0.017,
@@ -1949,17 +1980,175 @@ class _NuvedaHome extends State<NuvedaHome> {
         ),
         Positioned(
           left: 0,
-          width: 375.0,
-          top: 195.0,
-          height: 170.0,
-          child: LayoutBuilder(builder: (context, constraints) {
-            return Carousel(
-              constraints,
-            );
-          }),
+          width: 32.0,
+          top: MediaQuery.of(context).size.height * 0.24,
+          height: MediaQuery.of(context).size.height * 0.212,
+          child: Image.asset(
+            'assets/images/rectangle1895.png',
+            package: 'nuveda_parabeac',
+            width: 32.000,
+            height: MediaQuery.of(context).size.height * 0.212,
+            fit: BoxFit.fill,
+          ),
         ),
         Positioned(
-          left: 0,
+          right: 408.0,
+          width: 32.0,
+          top: MediaQuery.of(context).size.height * 0.24,
+          height: MediaQuery.of(context).size.height * 0.212,
+          child: Image.asset(
+            'assets/images/rectangle1896.png',
+            package: 'nuveda_parabeac',
+            width: 32.000,
+            height: MediaQuery.of(context).size.height * 0.212,
+            fit: BoxFit.fill,
+          ),
+        ),
+        Positioned(
+          left: 38.0,
+          width: 347.0,
+          top: 195.0,
+          height: 172.0,
+          child: Container(
+              width: 347.000,
+              height: 172.000,
+              decoration: BoxDecoration(),
+              child: Stack(children: [
+                Positioned(
+                  left: 0,
+                  width: 347.0,
+                  top: 0,
+                  height: 172.0,
+                  child: Image.asset(
+                    'assets/images/rectangle1894.png',
+                    package: 'nuveda_parabeac',
+                    width: 347.000,
+                    height: 172.000,
+                    fit: BoxFit.none,
+                  ),
+                ),
+                Positioned(
+                  left: 156.0,
+                  width: 10.0,
+                  top: 155.0,
+                  height: 4.0,
+                  child: Container(
+                    width: 10.000,
+                    height: 4.000,
+                    decoration: BoxDecoration(
+                      color: Color(0x80000000),
+                      borderRadius: BorderRadius.all(Radius.circular(10)),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Color(0x40000000),
+                          spreadRadius: 4,
+                          blurRadius: 4,
+                          offset: Offset(0, 4),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Positioned(
+                  left: 168.0,
+                  width: 11.0,
+                  top: 155.0,
+                  height: 4.0,
+                  child: Container(
+                    width: 11.000,
+                    height: 4.000,
+                    decoration: BoxDecoration(
+                      color: Color(0xff8593f4),
+                      borderRadius: BorderRadius.all(Radius.circular(10)),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Color(0x40000000),
+                          spreadRadius: 4,
+                          blurRadius: 4,
+                          offset: Offset(0, 4),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Positioned(
+                  left: 181.0,
+                  width: 10.0,
+                  top: 155.0,
+                  height: 4.0,
+                  child: Container(
+                    width: 10.000,
+                    height: 4.000,
+                    decoration: BoxDecoration(
+                      color: Color(0x80000000),
+                      borderRadius: BorderRadius.all(Radius.circular(10)),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Color(0x40000000),
+                          spreadRadius: 4,
+                          blurRadius: 4,
+                          offset: Offset(0, 4),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Positioned(
+                  left: 208.0,
+                  width: 139.0,
+                  top: 0,
+                  height: 172.0,
+                  child: SvgPicture.asset(
+                    'assets/images/rectangle1914.svg',
+                    package: 'nuveda_parabeac',
+                    width: 139.000,
+                    height: 172.000,
+                    fit: BoxFit.none,
+                  ),
+                ),
+                Positioned(
+                  left: 0,
+                  width: 152.0,
+                  top: 13.0,
+                  height: 31.0,
+                  child: Container(
+                    width: 152.000,
+                    height: 31.000,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                    ),
+                  ),
+                ),
+                Positioned(
+                  left: 3.0,
+                  width: 136.0,
+                  top: 17.0,
+                  height: 22.0,
+                  child: Image.asset(
+                    'assets/images/image262.png',
+                    package: 'nuveda_parabeac',
+                    width: 136.000,
+                    height: 22.000,
+                    fit: BoxFit.none,
+                  ),
+                ),
+                Positioned(
+                  left: 200.0,
+                  width: 132.0,
+                  top: 0,
+                  height: 172.0,
+                  child: Image.asset(
+                    'assets/images/image279.png',
+                    package: 'nuveda_parabeac',
+                    width: 132.000,
+                    height: 172.000,
+                    fit: BoxFit.none,
+                  ),
+                ),
+              ])),
+        ),
+        Positioned(
+          left: 24.0,
           width: 375.0,
           top: 747.0,
           height: 65.0,
@@ -1997,7 +2186,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 10.0,
                   child: Image.asset(
                     'assets/images/ellipse148.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 10.000,
                     height: 10.000,
                     fit: BoxFit.none,
@@ -2010,7 +2199,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 10.0,
                   child: Image.asset(
                     'assets/images/ellipse149.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 10.000,
                     height: 10.000,
                     fit: BoxFit.none,
@@ -2023,7 +2212,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 10.0,
                   child: Image.asset(
                     'assets/images/ellipse150.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 10.000,
                     height: 10.000,
                     fit: BoxFit.none,
@@ -2036,7 +2225,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 10.0,
                   child: Image.asset(
                     'assets/images/ellipse151.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 10.000,
                     height: 10.000,
                     fit: BoxFit.none,
@@ -2049,7 +2238,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 25.0,
                   child: Image.asset(
                     'assets/images/rectangle1953.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 25.000,
                     height: 25.000,
                     fit: BoxFit.none,
@@ -2062,7 +2251,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 25.0,
                   child: Image.asset(
                     'assets/images/rectangle1954.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 25.000,
                     height: 25.000,
                     fit: BoxFit.none,
@@ -2075,7 +2264,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 25.0,
                   child: Image.asset(
                     'assets/images/rectangle1955.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 25.000,
                     height: 25.000,
                     fit: BoxFit.none,
@@ -2088,7 +2277,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 25.0,
                   child: Image.asset(
                     'assets/images/rectangle1956.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 25.000,
                     height: 25.000,
                     fit: BoxFit.none,
@@ -2111,7 +2300,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 10.0,
                           child: Image.asset(
                             'assets/images/ellipse147.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 10.000,
                             height: 10.000,
                             fit: BoxFit.none,
@@ -2124,7 +2313,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 25.0,
                           child: Image.asset(
                             'assets/images/rectangle1952.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 25.000,
                             height: 25.000,
                             fit: BoxFit.none,
@@ -2150,7 +2339,7 @@ class _NuvedaHome extends State<NuvedaHome> {
               ])),
         ),
         Positioned(
-          left: 0,
+          left: 24.0,
           width: 375.0,
           top: 0,
           height: 102.0,
@@ -2180,7 +2369,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                   height: 50.0,
                   child: Image.asset(
                     'assets/images/profile.png',
-                    package: 'sksk',
+                    package: 'nuveda_parabeac',
                     width: 50.000,
                     height: 50.000,
                     fit: BoxFit.none,
@@ -2223,7 +2412,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 24.0,
                           child: Image.asset(
                             'assets/images/ellipse63.png',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 24.000,
                             height: 24.000,
                             fit: BoxFit.none,
@@ -2236,7 +2425,7 @@ class _NuvedaHome extends State<NuvedaHome> {
                           height: 16.0,
                           child: SvgPicture.asset(
                             'assets/images/vector.svg',
-                            package: 'sksk',
+                            package: 'nuveda_parabeac',
                             width: 12.218,
                             height: 16.000,
                             fit: BoxFit.none,
